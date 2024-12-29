@@ -1,0 +1,196 @@
+/* Reset CSS เพื่อความเข้ากันได้กับเบราว์เซอร์ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* พื้นหลังและฟอนต์ทั่วไป */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f0fe;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* เฮดเดอร์และเมนูนำทาง */
+header {
+    background: #26c6da;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu li a:hover, .menu li a.active {
+    text-decoration: underline;
+}
+
+/* ส่วนแนะนำ (Hero Section) */
+.hero {
+    background: url('../images/chonburi.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 4em 2em;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+/* ส่วนแนะนำสถานที่ (Highlights) */
+.highlights {
+    padding: 2em;
+    text-align: center;
+}
+
+.highlights h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.places {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.place {
+    background: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.place img, .place-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.place h3, .place-detail h2 {
+    margin-top: 0.5em;
+}
+
+/* ปรับสำหรับ place.html */
+.places-list {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.places-list h1 {
+    font-size: 2.5em;
+    color: #005f73;
+    margin-bottom: 1em;
+}
+
+.place-detail {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.place-detail:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.place-detail h2 {
+    color: #3a86ff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.place-detail p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.place-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* ฟอร์มติดต่อ */
+.contact-form {
+    padding: 2em;
+    text-align: center;
+}
+
+.contact-form h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* ส่วนท้ายเว็บไซต์ */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #26c6da;
+    color: white;
+    margin-top: 3em;
+}
