@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    line-height: 1.5;
+}
+
+/* สำหรับ Footer */
+footer {
+    background: #007bff;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar Scroll Effect */
+.navbar {
+    transition: background-color 0.3s;
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 123, 255, 0.9);
+}
+
+/* Footer Style */
+footer {
+    border-top: 2px solid #ccc;
+    padding-top: 15px;
+    font-size: 0.9rem;
+}
+
+/* Hero Section Text Shadow */
+.hero-section h1, .hero-section p {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}

@@ -1,1 +1,54 @@
 # homework2_bootstrap
+## git command used in this lab
+- git add .
+- git commit -m "สร้างโครงสร้างโปรเจคเริ่มต้น"
+- git checkout -b development
+-  git checkout -b feature/homepage
+-  git checkout -b feature/main
+-  git checkout -b feature/contact
+-  git checkout -b feature/place
+-  git checkout -b feature/css
+- git commit -m "สร้าง branch"
+- git add .
+- git commit -m "เอาโค้ด Hw 1 มาใส่ใน Hw2"
+- git add index.html
+- git commit -m "เพิ่มรูปภาพสถานที่เพิ่มเติม"
+- git add images
+- git commit -m "เพิ่มรูปภาพใน images"  
+- git add place.html
+- git commit -m "แก้โค้ด" 
+- git add place.html
+- git commit -m "เพิ่มรูปภาพเเละคำบรรยาย"
+- git add index.html
+- git commit -m "เพิ่ม Bootstrap CSS ในหน้า index"
+- git add index.html
+- git commit -m "เปลี่ยนสีในส่วน nav class" 
+- git add place.html
+- git commit -m "เพิ่ม Bootstrap CSS ในหน้า place"
+- git add contact.html
+- git commit -m "เปลี่ยนสี footer"
+- git add contact.html
+- git commit -m "เพิ่ม Bootstrap CSS ในหน้า contact"
+- git add contact.html
+- git commit -m "ปรับโค้ด Footer" 
+- git add contact.html
+- git commit -m "เพิ่ม Contact Modal Trigger"
+- git add css/style.css 
+- git commit -m "เพิ่ม Navbar Scroll Effect" 
+- git add css/style.css
+- git commit -m "เพิ่ม Card Hover Effect"
+- git add .
+- git commit -m "เพิ่มชื่อ CHONBURI ทางด้านซ้ายของ Navbar"
+- git add README.md
+- git commit -m "git command used in this lab"
+- git checkout development
+- git merge feature/homepage
+- git merge feature/main
+- git merge feature/contact
+- git merge feature/place
+- git merge feature/css
+- git add contact.html
+- git commit -m "ปรับเเก้โค้ด"
+- git add screenshot.pdf
+- git commit -m "เพิ่ม screenshot.pdf"
+- git push origin development
