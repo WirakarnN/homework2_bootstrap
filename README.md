@@ -47,4 +47,8 @@
 - git merge feature/contact
 - git merge feature/place
 - git merge feature/css
+- git add contact.html
+- git commit -m "ปรับเเก้โค้ด"
+- git add screenshot.pdf
+- git commit -m "เพิ่ม screenshot.pdf"
 - git push origin development
